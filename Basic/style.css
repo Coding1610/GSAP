@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#box1{
+    background-color: darkorange;
+    height: 250px;
+    width: 250px;
+}
+
+#box2{
+    background-color:darkmagenta;
+    height: 250px;
+    width: 250px;
+}
+
+#navbar{
+    padding: 2rem;
+    color:black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navLinks{
+    display: flex;
+    gap: 50px;
+}
