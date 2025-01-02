@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", serif;
+    color: white;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+h1{
+    font-size: 150px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+}
