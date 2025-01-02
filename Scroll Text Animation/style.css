@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Silkscreen", serif;
+    color: black;
+}
+
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+#page1, #page2, #page3{
+    width: 100%;
+    height: 100vh;
+    padding: 5vw 0;
+}
+
+#move{
+    display: flex;;
+    background-color:#b7d414;
+    padding: 3vw 0;
+    overflow: hidden;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 1.5vw;
+    gap: 3vw;
+    transform: translateX(-100%);
+}
+
+#box h1{
+    font-size: 4vw;
+}
+
+#box img{
+    height: 4vw;
+}
