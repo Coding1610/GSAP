@@ -1,0 +1,274 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+/* section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+} */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+nav h1{
+    font-size: 40px;
+}
+
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: transparent;
+    outline: none;
+}
+
+.center{
+    padding: 60px 100px;
+    height: 80%;
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    /* margin-top: 20px; */
+
+}
+
+.centerPart1{
+    height: 100%;
+    width: 50%;
+}
+
+.centerPart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.centerPart1 h1{
+    font-size: 60px;
+    line-height: 1.3;
+    font-family: "Chakra Petch", serif;
+    width: 80%;
+}
+
+.centerPart1 p{
+    margin-top: 35px;
+    font-size: 20px;
+    color: rgb(33, 33, 33);
+    width: 80%;
+    font-weight: lighter;
+}
+
+.centerPart1 button{
+    padding: 20px 40px;
+    margin-top: 45px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: black;
+    outline: none;
+    border:none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.centerPart2 img{
+    width: 84%;
+    height: 500px;
+}
+
+.section1Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 100px;
+    overflow-y: hidden;
+}
+
+.section1Bottom img{
+    width: 160px;
+}
+
+.section2{
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .services{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 3rem;
+    margin-top: 40px;
+}
+
+.services h3{
+    font-size: 40px;
+    font-weight: 500;
+    background-color:#92dd47;
+    padding: 5px 8px;
+}
+
+.services p{
+    font-size: 18px;
+    color: rgb(33, 33, 33);
+    width: 50%;
+    font-weight:lighter;
+}
+
+.container{
+    height: 80%;
+    width: 100%;
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background: red; */
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 110px;
+    /* margin-bottom: 100px; */
+}
+
+.container .elem{
+    height: 58%;
+    width: 45%;
+    /* background-color: #92dd47; */
+    border-radius: 50px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    box-shadow: 0px 8px 0px black;
+    padding: 30px;
+}
+
+.elem1, .elem4{
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+}
+
+.elem2, .elem3{
+    background-color: black;
+    display: flex;
+}
+
+.elemPart1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}  
+
+.elemPart1 h4{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 23px;
+}
+
+.elemPart1 h1{
+    font-size: 40px;
+    line-height: 1.2;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.elem1Part1 h1, .elem4Part1 h1{
+    background-color: #92dd47;
+}
+
+.elem2Part1 h1, .elem3Part1 h1{
+    background-color:white;
+}
+
+.elem1Part1 i, .elem4Part1 i{
+    font-size: 30px;
+    background: #000;
+    color: #92dd47;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.elem2Part1 h4, .elem3Part1 h4{
+    color: white;
+}
+
+.elem2Part1 i, .elem3Part1 i{
+    font-size: 30px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.elemPart2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemPart2 img{
+    height: 70%;
+    padding-left: 20px;
+}
+
+.nextDiv{
+    height: 10%;
+    width: 100%;
+    background: #92dd47;
+    margin-top: 250px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar:horizontal{
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb:vertical{
+    background-color: #92dd47;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background-color: #92dd47;
+}
